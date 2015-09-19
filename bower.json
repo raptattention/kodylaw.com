@@ -1,0 +1,21 @@
+{
+  "name": "kodylaw.com",
+  "version": "0.0.1",
+  "homepage": "https://github.com/raptattention/kodylaw.com",
+  "authors": [
+    "raptattention <klaw1794@gmail.com>"
+  ],
+  "description": "Kody Law's Personal Website",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
