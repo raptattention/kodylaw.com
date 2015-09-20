@@ -1,39 +1,52 @@
 body {
 	font-family: 'Average', serif;
 	margin: 0;
+	text-align: center;
 }
 
 h1 {
 	font-family: 'Fjalla One', sans-serif;
+	color: white;
+	margin: 0;
+	font-size: 80px;
+}
+
+h2 {
+	font-size: 35px;
+	color: #ad9365;
+	letter-spacing: 0.30em;
 }
 
 .city-image {
-	background-image: url(../img/city.jpg);
-	height: 550px;
+	background-image: url(../img/city.png);
+	height: 500px;
 	width: 100%;
 	top: 0;
 	left: 0;
+	filter: brightness(50%);
 }
 
-.navbar {
-	background-color: grey;
-	opacity: 0.7;
-	float: center;
-	/*width: 67%;*/
-	text-align: center;
+.city-image.overlay {
+    opacity: .9;
+    background-color: black;
+    left: 0; top: 0; height: 550px; width: 100%;
+}
+
+.title {
 	margin: 0 auto;
-	z-index: 0;
+	position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.navbar div {
-	display: inline-block;
-	margin: 0;
-	padding-top: 16px;
-	padding-bottom: 16px;
-	width: 16.66%;
+#websiteName {
+  font-weight: 500;
+  letter-spacing: 0.7em;
+  margin-bottom: 50px;
 }
 
-.navbar div a {
-	text-decoration: none;
-	color: white;
+#websiteDescrption {
+	margin-top: 50px;
+  font-weight: 300;
+  color: #ad9365;
 }
