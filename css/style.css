@@ -107,3 +107,28 @@ h2 {
 	margin-bottom: 15px;
 	margin-top: 0;
 }
+
+span {
+	color: #ad9365;
+}
+
+.button {
+    position: relative;
+    display: table;
+    margin: 0 auto 50px auto;
+    border: 1px solid #c5b395;
+    padding: 10px 15px 10px 20px;
+    background: white;
+    background: transparent;
+    font-size: 0.95em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.23em;
+    color: #a4906e;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.links {
+	background: #f9f6f6; 
+}
