@@ -45,15 +45,15 @@
       <img src="../img/divider.png" style="height: 25px; margin-bottom: 15px">
       <div id="skillsDescription">
         <section>
-          <img src="../img/devices.png">
+          <img src="../img/devices.png" class="descriptionImg">
           <img src="../img/triangle-divider.png">
         </section>
         <section>
-          <img src="../img/data-science.png" style="width: 73%; margin: 0 auto;">
+          <img src="../img/data-science.png" style="width: 73%; margin: 0 auto;" class="descriptionImg">
           <img src="../img/triangle-divider.png">
         </section>
         <section>
-          <img src="../img/flexibility.png">
+          <img src="../img/flexibility.png" class="descriptionImg">
           <img src="../img/triangle-divider.png">
         </section>
         <section>
@@ -69,18 +69,68 @@
           <p>I can work in many different areas and quickly learning new skills.</p>
         </section>
       </div>
-      <div id="languages">
+      <div class="languages">
         <h3>Languages</h3>
+        <div class="spin" onclick="$(this).toggleClass('rotated');"> 
+          <span>+</span>
+        </div>
       </div>
-      <div id="frameworks">
+      <div class="frameworks">
         <h3>Frameworks</h3>
+        <div class="spin" onclick="$(this).toggleClass('rotated');"> 
+          <span>+</span>
+        </div>
       </div>
-      <div id="databases">
+      <div class="databases">
         <h3>Databases</h3>
+        <div class="spin" onclick="$(this).toggleClass('rotated');"> 
+          <span>+</span>
+        </div>
       </div>
-      <div id="others">
-        <h3>Other Tools</h3> 
+      <div class="others">
+        <h3>Other Tools</h3>
+        <div class="spin" onclick="$(this).toggleClass('rotated');"> 
+          <span>+</span>
+        </div>
       </div>
+      <div class="languages">
+        <ul>
+          <li>&bullet; HTML + CSS</li>
+          <li>&bullet; Javascript</li>
+          <li>&bullet; Ruby</li>
+          <li>&bullet; Python</li>
+          <li>&bullet; R</li>
+        </ul>
+      </div>
+      <div class="frameworks">
+        <ul>
+          <li>&bullet; Bootstrap</li>
+          <li>&bullet; Angular</li>
+          <li>&bullet; Node.JS</li>
+          <li>&bullet; Rails</li>
+          <li>&bullet; Ionic</li>
+        </ul>
+      </div>
+      <div class="databases">
+        <ul>
+          <li>&bullet; SQL</li>
+          <li>&bullet; SQLite3</li>
+          <li>&bullet; PostgreSQL</li>
+          <li>&bullet; NoSQL</li>
+          <li>&bullet; MongoDB</li>
+        </ul>
+      </div>
+      <div class="others">
+        <ul>
+          <li>&bullet; Git/Github</li>
+          <li>&bullet; Bower</li>
+          <li>&bullet; Grunt</li>
+          <li>&bullet; npm</li>
+          <li>&bullet; Photoshop</li>
+        </ul> 
+      </div>
+    </section>
+    <section class="porfolio">
     </section>
     <section class="contactInfo">
       <h2>CONTACT</h2>

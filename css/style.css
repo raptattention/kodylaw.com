@@ -67,7 +67,7 @@ h2 {
 	width: 100%;
 }
 
-#languages, #frameworks, #databases, #others {
+.languages, .frameworks, .databases, .others {
 	width: 24%;
 	display: inline-block;
 	margin: 0;
@@ -87,6 +87,23 @@ h2 {
 	margin: 15px auto;
 }
 
+.descriptionImg {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+
+.descriptionImg:hover {
+	-webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 .services section p {
 	width: 75%;
 	margin: 0 auto;
@@ -99,6 +116,7 @@ h2 {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	margin-top: 50px;
+	display: inline-block;
 }
 
 .services h4 {
@@ -108,8 +126,24 @@ h2 {
 	margin-top: 0;
 }
 
+.services > div > div {
+	display: inline-block; 
+}
+
 span {
 	color: #ad9365;
+}
+
+.services span {
+	color: grey;
+}
+
+.spin {
+	-webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  -ms-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .button {
@@ -162,4 +196,29 @@ span {
 .github:hover{
 	opacity: 1;
 	background-image: url('../img/github_black.png') ;
+}
+
+ul {
+	margin: 0 auto 40px auto;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+ul li { 
+	display: inline;
+	color: #a4906e;
+}
+
+.rotated { 
+	-webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  -ms-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
