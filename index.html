@@ -71,30 +71,30 @@
       </div>
       <div class="languages">
         <h3>Languages</h3>
-        <div class="spin" onclick="$(this).toggleClass('rotated');"> 
+        <div class="spin" onclick="$(this).toggleClass('rotated'); $('.languages ul').toggle('slow');"> 
           <span>+</span>
         </div>
       </div>
       <div class="frameworks">
         <h3>Frameworks</h3>
-        <div class="spin" onclick="$(this).toggleClass('rotated');"> 
+        <div class="spin" onclick="$(this).toggleClass('rotated'); $('.frameworks ul').toggle('slow');"> 
           <span>+</span>
         </div>
       </div>
       <div class="databases">
         <h3>Databases</h3>
-        <div class="spin" onclick="$(this).toggleClass('rotated');"> 
+        <div class="spin" onclick="$(this).toggleClass('rotated'); $('.databases ul').toggle('slow');"> 
           <span>+</span>
         </div>
       </div>
       <div class="others">
         <h3>Other Tools</h3>
-        <div class="spin" onclick="$(this).toggleClass('rotated');"> 
+        <div class="spin" onclick="$(this).toggleClass('rotated'); $('.others ul').toggle('slow');"> 
           <span>+</span>
         </div>
       </div>
       <div class="languages">
-        <ul>
+        <ul style="display: none">
           <li>&bullet; HTML + CSS</li>
           <li>&bullet; Javascript</li>
           <li>&bullet; Ruby</li>
@@ -103,7 +103,7 @@
         </ul>
       </div>
       <div class="frameworks">
-        <ul>
+        <ul style="display: none">
           <li>&bullet; Bootstrap</li>
           <li>&bullet; Angular</li>
           <li>&bullet; Node.JS</li>
@@ -112,7 +112,7 @@
         </ul>
       </div>
       <div class="databases">
-        <ul>
+        <ul style="display: none">
           <li>&bullet; SQL</li>
           <li>&bullet; SQLite3</li>
           <li>&bullet; PostgreSQL</li>
@@ -121,7 +121,7 @@
         </ul>
       </div>
       <div class="others">
-        <ul>
+        <ul style="display: none">
           <li>&bullet; Git/Github</li>
           <li>&bullet; Bower</li>
           <li>&bullet; Grunt</li>
