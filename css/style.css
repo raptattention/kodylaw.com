@@ -45,13 +45,13 @@ h2 {
   margin-bottom: 50px;
 }
 
-#websiteDescrption {
+#websiteDescription {
 	margin-top: 50px;
   font-weight: 300;
 }
 
-#websiteDescription h2 {
-	color: white;
+#websiteDescription h2{
+	color: #F2BF16;
 }
 
 .description {
@@ -73,7 +73,7 @@ h2 {
 	margin: 0;
 }
 
-.services img {
+.services section img {
 	display: block;
 	margin: 0 auto;
 	width: 50%;  
@@ -147,20 +147,31 @@ span {
 }
 
 .button {
-    position: relative;
-    display: table;
-    margin: 0 auto 50px auto;
-    border: 1px solid #c5b395;
-    padding: 10px 15px 10px 20px;
-    background: white;
-    background: transparent;
-    font-size: 0.95em;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.23em;
-    color: #a4906e;
-    overflow: hidden;
-    text-decoration: none;
+  position: relative;
+  display: table;
+  margin: 0 auto 50px auto;
+  border: 1px solid #c5b395;
+  padding: 10px 15px 10px 20px;
+  background: white;
+  background: transparent;
+  font-size: 0.95em;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.23em;
+  color: #a4906e;
+  overflow: hidden;
+  text-decoration: none;
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  -ms-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.button:hover{
+	border: 1px solid #a4906e;
+	color: #807056;
+	box-shadow: 0px 0px 5px rgba(183,161,123,0.4);
 }
 
 .links {
@@ -190,7 +201,7 @@ span {
  	height:30px;
  	display:inline-block;
  	opacity: 0.4;
- 	background: transparent url('../img/github.png') center top no-repeat;
+ 	background: url('../img/github.png') center top no-repeat;
 }
 
 .github:hover{
@@ -221,4 +232,13 @@ ul li {
   -o-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+.portfolio {
+	background-color: #E8E1E4;
+}
+
+.portfolio h2 {
+	margin-top: 0;
+	padding-top: 25px;
 }
