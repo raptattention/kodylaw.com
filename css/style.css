@@ -132,3 +132,34 @@ span {
 .links {
 	background: #f9f6f6; 
 }
+
+.linkedin {
+ 	margin-top: 15px;
+ 	margin-bottom: 15px;
+ 	margin-right: 60px;
+ 	width: 30px;
+ 	height:30px;
+ 	opacity: 0.4;
+ 	display:inline-block;
+ 	background: url('../img/linkedin.png') center top no-repeat;
+}
+
+.linkedin:hover{
+	opacity: 1;
+	background-image: url('../img/linkedin-black.png') ;
+}
+
+.github {
+	margin-top: 15px;
+ 	margin-bottom: 15px;
+ 	width: 30px;
+ 	height:30px;
+ 	display:inline-block;
+ 	opacity: 0.4;
+ 	background: transparent url('../img/github.png') center top no-repeat;
+}
+
+.github:hover{
+	opacity: 1;
+	background-image: url('../img/github_black.png') ;
+}
