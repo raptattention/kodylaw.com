@@ -74,6 +74,18 @@ h2 {
 	overflow: hidden;
 }
 
+@media (max-width: 920px) and (min-width: 480px) {  
+  .languages, .frameworks, .databases, .others {
+		width: 49%;
+	}
+}
+
+@media (max-width: 480px) {
+	.languages, .frameworks, .databases, .others {
+		width: 100%;
+	}
+}
+
 .services section img {
 	display: block;
 	margin: 0 auto;
@@ -86,6 +98,13 @@ h2 {
 	width: 32%;
 	display: inline-block;
 	margin: 15px auto;
+}
+
+@media (max-width: 700px) {  
+  .services section {
+		width: 85%;
+		margin: 10px auto;
+	}
 }
 
 .descriptionImg {
@@ -124,7 +143,7 @@ h2 {
 	font-size: 20px;
 	color: #ad9365;
 	margin-bottom: 15px;
-	margin-top: 0;
+	margin-top: 10px;
 }
 
 span {
