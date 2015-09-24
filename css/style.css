@@ -70,7 +70,8 @@ h2 {
 .languages, .frameworks, .databases, .others {
 	width: 24%;
 	display: inline-block;
-	margin: 0;
+	margin: 0 auto;
+	overflow: hidden;
 }
 
 .services section img {
@@ -126,10 +127,6 @@ h2 {
 	margin-top: 0;
 }
 
-.services > div > div {
-	display: inline-block; 
-}
-
 span {
 	color: #ad9365;
 }
@@ -139,6 +136,7 @@ span {
 }
 
 .spin {
+	display: inline;
 	-webkit-transition: 0.2s ease-in-out;
   -moz-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
