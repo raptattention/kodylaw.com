@@ -58,6 +58,11 @@ h2 {
 	padding-bottom: 10px
 }
 
+#descriptionText{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 .services {
 	padding-top: 5px;
 	background: #f9f6f6;
@@ -103,7 +108,7 @@ h2 {
 @media (max-width: 700px) {  
   .services section {
 		width: 85%;
-		margin: 10px auto;
+		margin: 10pxn auto;
 	}
 }
 
@@ -253,9 +258,69 @@ ul li {
 
 .portfolio {
 	background-color: #E8E1E4;
+	padding-bottom: 15px;
 }
 
 .portfolio h2 {
 	margin-top: 0;
 	padding-top: 25px;
+}
+
+.divider {
+	width: 50%;
+	height: 25px;
+}
+
+.portfolioItem {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.portfolioItem img {
+	border-radius: 15px;
+	display: inline-block;
+	border: 3px solid #969693;
+	vertical-align: top;
+}
+
+#gameImage {
+	width: 25%;
+}
+
+#recipzImage {
+	width: 35%;
+}
+
+#collegeswapImage {
+	width: 25%;
+}
+
+#locatrImage {
+	width: 20%;
+}
+
+.portfolioDescription {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 15px;
+	padding-top: 0;
+}
+
+.portfolioDescription h3 {
+	color: #c4a958;
+}
+
+.portfolioDescription p {
+	color: darkgrey;
+}
+
+@media (min-width: 1143px) {
+	.portfolioDescription h3 {
+		font-size: 30px;
+	}
+	.portfolioDescription p {
+		font-size: 25px;
+	}
 }
