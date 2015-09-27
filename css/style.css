@@ -42,11 +42,11 @@ h2 {
 #websiteName {
   font-weight: 500;
   letter-spacing: 0.7em;
-  margin-bottom: 50px;
+  margin-bottom: 85px;
 }
 
 #websiteDescription {
-	margin-top: 50px;
+	margin-top: 85px;
   font-weight: 300;
 }
 
@@ -56,6 +56,31 @@ h2 {
 
 .description {
 	padding-bottom: 10px
+}
+
+#selfPortrait {
+	border-radius: 50%;
+	border: 15px solid black;
+	width: 25%; 
+	display: block; 
+	margin-top: 25px; 
+	margin-left: auto; 
+	margin-right: auto;  
+	margin-bottom: 15px;
+	-webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+
+#selfPortrait:hover {
+	-webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 #descriptionText{
@@ -77,18 +102,7 @@ h2 {
 	display: inline-block;
 	margin: 0 auto;
 	overflow: hidden;
-}
-
-@media (max-width: 920px) and (min-width: 480px) {  
-  .languages, .frameworks, .databases, .others {
-		width: 49%;
-	}
-}
-
-@media (max-width: 480px) {
-	.languages, .frameworks, .databases, .others {
-		width: 100%;
-	}
+	vertical-align: top;
 }
 
 .services section img {
@@ -267,7 +281,7 @@ ul li {
 }
 
 .divider {
-	width: 50%;
+	width: 33%;
 	height: 25px;
 }
 
@@ -281,7 +295,7 @@ ul li {
 	border-radius: 15px;
 	display: inline-block;
 	border: 3px solid #969693;
-	vertical-align: top;
+	vertical-align: middle;
 }
 
 #gameImage {
@@ -289,11 +303,11 @@ ul li {
 }
 
 #recipzImage {
-	width: 35%;
+	width: 40%;
 }
 
 #collegeswapImage {
-	width: 25%;
+	width: 30%;
 }
 
 #locatrImage {
@@ -301,15 +315,18 @@ ul li {
 }
 
 .portfolioDescription {
-	width: 50%;
+	width: 25%;
 	display: inline-block;
-	vertical-align: top;
-	margin-right: 15px;
+	vertical-align: middle;
+	margin-right: 50px;
+	margin-left: 50px;
 	padding-top: 0;
 }
 
 .portfolioDescription h3 {
 	color: #c4a958;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .portfolioDescription p {
@@ -318,9 +335,38 @@ ul li {
 
 @media (min-width: 1143px) {
 	.portfolioDescription h3 {
-		font-size: 30px;
+		font-size: 35px;
 	}
 	.portfolioDescription p {
 		font-size: 25px;
+	}
+}
+
+@media (max-width: 920px) and (min-width: 480px) {  
+  .languages, .frameworks, .databases, .others {
+		width: 49%;
+	}
+}
+
+@media (max-width: 480px) {
+	.languages, .frameworks, .databases, .others {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 50px;
+	}
+
+	.title img {
+		opacity: 0;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	.portfolioDescription {
+		width: 55%;
+		margin: 0;
 	}
 }
