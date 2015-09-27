@@ -342,6 +342,15 @@ ul li {
 	}
 }
 
+@media (min-width: 850px) and (max-width: 1143px){
+	.portfolioDescription h3 {
+		font-size: 30px;
+	}
+	.portfolioDescription p {
+		font-size: 20px;
+	}
+}
+
 @media (max-width: 920px) and (min-width: 480px) {  
   .languages, .frameworks, .databases, .others {
 		width: 49%;
