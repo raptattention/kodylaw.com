@@ -269,85 +269,9 @@ ul li {
   transform: rotate(45deg);
 }
 
-.portfolio {
-	background-color: #E8E1E4;
-	padding-bottom: 15px;
-}
-
-.portfolio h2 {
-	margin-top: 0;
-	padding-top: 25px;
-}
-
 .divider {
 	width: 33%;
 	height: 25px;
-}
-
-.portfolioItem {
-	width: 100%;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-.portfolioItem img {
-	border-radius: 15px;
-	display: inline-block;
-	border: 3px solid #969693;
-	vertical-align: middle;
-}
-
-#gameImage {
-	width: 25%;
-}
-
-#recipzImage {
-	width: 40%;
-}
-
-#collegeswapImage {
-	width: 30%;
-}
-
-#locatrImage {
-	width: 20%;
-}
-
-.portfolioDescription {
-	width: 25%;
-	display: inline-block;
-	vertical-align: middle;
-	margin-right: 50px;
-	margin-left: 50px;
-	padding-top: 0;
-}
-
-.portfolioDescription h3 {
-	color: #c4a958;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-.portfolioDescription p {
-	color: darkgrey;
-}
-
-@media (min-width: 1143px) {
-	.portfolioDescription h3 {
-		font-size: 35px;
-	}
-	.portfolioDescription p {
-		font-size: 25px;
-	}
-}
-
-@media (min-width: 850px) and (max-width: 1143px){
-	.portfolioDescription h3 {
-		font-size: 30px;
-	}
-	.portfolioDescription p {
-		font-size: 20px;
-	}
 }
 
 @media (max-width: 920px) and (min-width: 480px) {  
@@ -371,11 +295,6 @@ ul li {
 
 	h2 {
 		font-size: 30px;
-	}
-
-	.portfolioDescription {
-		width: 55%;
-		margin: 0;
 	}
 
 	#websiteName {
